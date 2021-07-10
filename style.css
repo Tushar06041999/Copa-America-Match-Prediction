@@ -1,0 +1,60 @@
+body{
+    margin:px;
+    padding:px;
+    background-image:url(images/stadium.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Encode Sans SC', sans-serif;
+    width:100%;
+    height:100%;
+}
+
+.first-div{
+    text-align: center;
+}
+
+.unique{
+    background-position: center;
+    background-repeat: no-repeat;
+    width:8%;
+    height:5%;
+    margin:10px ;
+}
+h1{
+    display:inline-block;
+    margin:40px;
+    margin-bottom:140px;
+}
+span{
+    font-weight:900px;
+    color:#fafff6;
+}
+#first-span{
+    margin-left:15px;
+    margin-top:-40px;;
+}
+#second-span{
+    margin-right:15px;
+}
+footer{
+    text-align: center;
+}
+#btn:hover{
+    color:rgb(255, 238, 238);
+    background-color: rgb(42, 165, 48);
+    border-radius: 15px;
+    outline: azure;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        margin:px;
+        padding:px;
+        background-image:url(images/stadium.jfif);
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Encode Sans SC', sans-serif;
+        width:100%;
+        height:100%;
+    }
+}
